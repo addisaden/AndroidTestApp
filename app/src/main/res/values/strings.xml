@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Test App</string>
+    <string name="HauptMenuText">Willkommen auf der Test App von addis.cloud!</string>
+    <string name="HauptMenuButtonText">Hier der Button-Text</string>
+</resources>
