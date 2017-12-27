@@ -29,5 +29,12 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@android:color/holo_green_light"
             android:text="@string/HauptMenuButtonText" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/secondary_text_dark"
+            android:text="@string/HauptMenuButtonTextStarteUnterseite" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

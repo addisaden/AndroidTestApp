@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">Test App</string>
     <string name="HauptMenuText">Willkommen auf der Test App von addis.cloud!</string>
-    <string name="HauptMenuButtonText">Hier der Button-Text</string>
+    <string name="HauptMenuButtonText">RUN RUN RUN ...</string>
+    <string name="HauptMenuButtonResetText">Zurückstellen</string>
+    <string name="UnterSeiteText">
+        Hallo,
+        dies ist ein mehrzeiliger Text.
+        Bla bla blubb.
+        Bla bla blubb.
+        Bla bla blubb.
+        Bla bla blubb.
+        Bla bla blubb.
+    </string>
+    <string name="HauptMenuButtonTextStarteUnterseite">Aktiviere Unterseite</string>
 </resources>
