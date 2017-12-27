@@ -21,13 +21,11 @@ public class HauptMenu extends AppCompatActivity {
                 int add_value = 10;
                 int newprog = progbar.getProgress() + add_value;
 
-                if(newprog <= progbar.getMax()) {
-                    progbar.setProgress(newprog);
-                } else {
-                    progbar.setProgress(0);
-                    newprog = progbar.getProgress();
+                if(newprog > progbar.getMax()) {
+                    newprog = 0;
                     button.setText(R.string.HauptMenuButtonText);
                 }
+                progbar.setProgress(newprog);
 
                 if(newprog + add_value > progbar.getMax()) {
                     button.setText(R.string.HauptMenuButtonResetText);
